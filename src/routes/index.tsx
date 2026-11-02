@@ -22,7 +22,7 @@ function Index() {
     <main className="portfolio">
       <nav className="nav-shell">
         <a className="brand" href="#home" aria-label="Bruno Vides início"><span className="brand-mark">✳</span><span>BRUNO<br/>VIDES<span className="brand-dot">.</span></span></a>
-        <div className="nav-links"><a href="#sobre">SOBRE</a><a href="#servicos">SERVIÇOS</a><a href="#projetos">PROJETOS</a><a href="#contato">CONTATO</a></div>
+        <div className="nav-links"><a href="#sobre">SOBRE</a><a href="#servicos">SERVIÇOS</a><a href="/projetos">PROJETOS</a><a href="#contato">CONTATO</a></div>
         <a className="nav-cta" href="#contato">VAMOS CONVERSAR <ArrowUpRight size={15}/></a>
         <a className="mobile-menu" href="#projetos" aria-label="Ver projetos"><Menu size={23}/></a>
       </nav>
