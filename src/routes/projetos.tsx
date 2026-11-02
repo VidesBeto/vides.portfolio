@@ -4,8 +4,8 @@ import { ArrowLeft, ArrowUpRight, Asterisk } from "lucide-react";
 export const Route = createFileRoute("/projetos")({ component: ProjectsPage });
 
 const projects = [
-  { number: "01", title: "Raiz Urbana", category: "ESTAMPARIA / STREETWEAR", year: "2025", image: "https://images.unsplash.com/photo-1523398002811-999ca8dec234?auto=format&fit=crop&w=1400&q=85", description: "Pesquisa gráfica e linguagem visual para uma coleção urbana." },
-  { number: "02", title: "Corpo & Movimento", category: "DESIGN DE PRODUTO / MODA", year: "2024", image: "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=1400&q=85", description: "Exploração de formas, textura e composição aplicadas ao vestuário." },
+  { number: "01", title: "Corpo & Movimento", category: "DESIGN DE PRODUTO / MODA", year: "2024", image: "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=1400&q=85", description: "Exploração de formas, textura e composição aplicadas ao vestuário." },
+  { number: "02", title: "Raiz Urbana", category: "ESTAMPARIA / STREETWEAR", year: "2025", image: "https://images.unsplash.com/photo-1523398002811-999ca8dec234?auto=format&fit=crop&w=1400&q=85", description: "Pesquisa gráfica e linguagem visual para uma coleção urbana." },
   { number: "03", title: "Frequência", category: "IDENTIDADE / DIREÇÃO DE ARTE", year: "2024", image: "https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=1400&q=85", description: "Conceito visual com ritmo, contraste e personalidade." },
   { number: "04", title: "Cidade em Camadas", category: "ESTAMPARIA / PESQUISA VISUAL", year: "2023", image: "https://images.unsplash.com/photo-1503341504253-dff4815485f1?auto=format&fit=crop&w=1400&q=85", description: "Referências da paisagem urbana traduzidas em grafismos." },
   { number: "05", title: "Forma & Matéria", category: "DESIGN GRÁFICO / EXPERIMENTAL", year: "2023", image: "https://images.unsplash.com/photo-1549490349-8643362247b5?auto=format&fit=crop&w=1400&q=85", description: "Estudo de cor, materialidade e composição abstrata." },
