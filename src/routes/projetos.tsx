@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { ArrowLeft, ArrowUpRight, Asterisk, Instagram } from "lucide-react";
+import { ArrowLeft, ArrowUpRight, Asterisk } from "lucide-react";
 
 export const Route = createFileRoute("/projetos")({ component: ProjectsPage });
 
@@ -16,8 +16,8 @@ function ProjectsPage() {
   return <main className="portfolio projects-page">
     <nav className="nav-shell">
       <Link className="brand" to="/" aria-label="Bruno Vides início"><span className="brand-mark">✳</span><span>BRUNO<br/>VIDES<span className="brand-dot">.</span></span></Link>
-      <div className="nav-links"><Link to="/#sobre">SOBRE</Link><Link to="/#servicos">SERVIÇOS</Link><Link to="/projetos" className="active">PROJETOS</Link><Link to="/#contato">CONTATO</Link></div>
-      <Link className="nav-cta" to="/#contato">VAMOS CONVERSAR <ArrowUpRight size={15}/></Link>
+      <div className="nav-links"><a href="/#sobre">SOBRE</a><a href="/#servicos">SERVIÇOS</a><Link to="/projetos" className="active">PROJETOS</Link><a href="/#contato">CONTATO</a></div>
+      <a className="nav-cta" href="/#contato">VAMOS CONVERSAR <ArrowUpRight size={15}/></a>
       <Link className="mobile-menu" to="/" aria-label="Voltar ao início"><ArrowLeft size={22}/></Link>
     </nav>
     <header className="projects-page-hero">
@@ -28,7 +28,7 @@ function ProjectsPage() {
     </header>
     <section className="projects-page-grid">{projects.map(p=><article className="projects-page-card" key={p.number}><div className="projects-page-image"><img src={p.image} alt={p.title} loading="lazy"/><span className="projects-page-number">{p.number}</span><span className="projects-page-arrow"><ArrowUpRight size={22}/></span></div><div className="projects-page-meta"><div><span>{p.category}</span><h2>{p.title}</h2><p>{p.description}</p></div><small>{p.year}</small></div></article>)}</section>
     <p className="projects-page-note">Esta é uma prévia de layout com imagens ilustrativas. Os projetos e imagens serão substituídos pelos seus trabalhos reais.</p>
-    <section className="projects-page-cta"><div><span className="section-kicker light">TEM UM PROJETO EM MENTE?</span><h2>VAMOS CRIAR<br/>ALGO <em>ÚNICO.</em></h2></div><Link className="button-primary" to="/#contato">FALE COMIGO <ArrowUpRight size={17}/></Link></section>
+    <section className="projects-page-cta"><div><span className="section-kicker light">TEM UM PROJETO EM MENTE?</span><h2>VAMOS CRIAR<br/>ALGO <em>ÚNICO.</em></h2></div><a className="button-primary" href="/#contato">FALE COMIGO <ArrowUpRight size={17}/></a></section>
     <footer className="footer"><Link className="brand footer-brand" to="/"><span className="brand-mark">✳</span><span>BRUNO<br/>VIDES<span className="brand-dot">.</span></span></Link><span className="footer-note">DESIGN GRÁFICO · ESTAMPARIA · PRODUTO</span><span className="copyright">© 2026 BRUNO VIDES</span></footer>
   </main>;
 }
