@@ -4,10 +4,10 @@ import { ArrowDownRight, ArrowRight, ArrowUpRight, Asterisk, Dribbble, Instagram
 export const Route = createFileRoute("/")({ component: Index });
 
 const projects = [
-  { n: "01", title: "Raiz Urbana", type: "Estamparia • Streetwear", year: "2025", image: "https://images.unsplash.com/photo-1523398002811-999ca8dec234?auto=format&fit=crop&w=1000&q=85", tone: "rust" },
-  { n: "02", title: "Corpo & Movimento", type: "Design de produto • Moda", year: "2024", image: "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=1000&q=85", tone: "olive" },
-  { n: "03", title: "Frequência", type: "Direção de arte • Identidade", year: "2024", image: "https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=1000&q=85", tone: "dark" },
-  { n: "04", title: "Cidade em Camadas", type: "Estampa • Pesquisa visual", year: "2023", image: "https://images.unsplash.com/photo-1503341504253-dff4815485f1?auto=format&fit=crop&w=1000&q=85", tone: "cream" },
+  { n: "01", title: "3 Palavrinhas", type: "Produto infantil • Mochilas & kits", year: "2026", image: "/Imagens/3palavrinhas/Menino com Mochila Colorida Educativa.png", tone: "rust" },
+  { n: "02", title: "Demon Slayer", type: "Produto licenciado • Mochilas", year: "2026", image: "/Imagens/Demon Slayer/Duck-ai-image-2026-11-07-03-39.jpeg", tone: "olive" },
+  { n: "03", title: "Moranguinho", type: "Produto infantil • Estamparia", year: "2026", image: "/Imagens/Moranguinho/Modelo01.jpg", tone: "dark" },
+  { n: "04", title: "Wolverine", type: "Produto licenciado • Mochilas", year: "2026", image: "/Imagens/Wolverine/primeira_foto_separada.png", tone: "cream" },
 ];
 
 const services = [
@@ -59,7 +59,7 @@ function Index() {
 
       <section className="skills-band"><div className="skills-list"><div className="section-kicker light">MEU REPERTÓRIO</div><h2>FERRAMENTAS<br/>E <em>PROCESSO.</em></h2><p>Uma mistura de técnica, curiosidade e atenção aos detalhes para levar cada projeto mais longe.</p><div className="skill-tags"><span>ESTAMPARIA</span><span>ILUSTRAÇÃO</span><span>IDENTIDADE VISUAL</span><span>COMPOSIÇÃO</span><span>DESENVOLVIMENTO DE PRODUTO</span><span>DIREÇÃO DE ARTE</span></div></div><div className="skills-graphic"><div className="graphic-ring ring-a"/><div className="graphic-ring ring-b"/><div className="graphic-ring ring-c"/><span className="graphic-star">✳</span><span className="graphic-word">IDEIA<br/>→ FORMA</span><span className="graphic-caption">EXPERIMENTAR / REFINAR / CRIAR</span></div></section>
 
-      <section className="projects-section" id="projetos"><div className="projects-heading"><div><div className="section-kicker">SELEÇÃO DE TRABALHOS</div><h2>PROJETOS EM <em>DESTAQUE.</em></h2></div><span className="project-count">01 — 04 / PORTFÓLIO</span></div><div className="project-grid">{projects.map((p) => <a className={"project-card " + p.tone} href="#contato" key={p.n}><div className="project-image"><img src={p.image} alt={p.title} loading="lazy"/><span className="project-number">{p.n}</span><span className="project-open"><ArrowUpRight size={21}/></span></div><div className="project-meta"><div><h3>{p.title}</h3><p>{p.type}</p></div><span>{p.year}</span></div></a>)}</div><p className="project-disclaimer">Imagens ilustrativas para esta prévia visual. Podemos substituir pelas suas artes e projetos reais.</p></section>
+      <section className="projects-section" id="projetos"><div className="projects-heading"><div><div className="section-kicker">SELEÇÃO DE TRABALHOS</div><h2>PROJETOS EM <em>DESTAQUE.</em></h2></div><span className="project-count">01 — 04 / PORTFÓLIO</span></div><div className="project-grid">{projects.map((p) => <a className={"project-card " + p.tone} href="/projetos" key={p.n}><div className="project-image"><img src={p.image} alt={p.title} loading="lazy"/><span className="project-number">{p.n}</span><span className="project-open"><ArrowUpRight size={21}/></span></div><div className="project-meta"><div><h3>{p.title}</h3><p>{p.type}</p></div><span>{p.year}</span></div></a>)}</div></section>
 
       <section className="quote-section"><div className="quote-mark">“</div><blockquote>Design bom não é só o que chama atenção. É o que carrega uma ideia, cria conexão e permanece na memória.</blockquote><div className="quote-credit"><span className="quote-line"/> UMA VISÃO SOBRE CRIAR <span className="quote-seal">BV<br/><small>DESIGN</small></span></div></section>
 
