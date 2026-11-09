@@ -23,7 +23,7 @@ function Index() {
       <nav className="nav-shell">
         <a className="brand" href="#home" aria-label="Bruno Vides início"><span className="brand-mark">✳</span><span>BRUNO<br/>VIDES<span className="brand-dot">.</span></span></a>
         <div className="nav-links"><a href="#sobre">SOBRE</a><a href="#servicos">SERVIÇOS</a><a href="/projetos">PROJETOS</a><a href="#contato">CONTATO</a></div>
-        <a className="nav-cta" href="#contato">VAMOS CONVERSAR <ArrowUpRight size={15}/></a>
+        <button type="button" className="language-switch" onClick={() => { window.location.href = "https://translate.google.com/translate?sl=pt&tl=en&u=" + encodeURIComponent(window.location.href); }} aria-label="Translate portfolio to English">ENGLISH <span aria-hidden="true">↗</span></button>\n        <a className="nav-cta" href="#contato">VAMOS CONVERSAR <ArrowUpRight size={15}/></a>
         <a className="mobile-menu" href="#projetos" aria-label="Ver projetos"><Menu size={23}/></a>
       </nav>
 
