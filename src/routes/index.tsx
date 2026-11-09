@@ -4,10 +4,10 @@ import { ArrowDownRight, ArrowRight, ArrowUpRight, Asterisk, Dribbble, Instagram
 export const Route = createFileRoute("/")({ component: Index });
 
 const projects = [
-  { n: "01", title: "3 Palavrinhas", type: "Produto infantil • Mochilas & kits", year: "2026", image: "/Imagens/3palavrinhas/Menino com Mochila Colorida Educativa.png", tone: "rust" },
-  { n: "02", title: "Demon Slayer", type: "Produto licenciado • Mochilas", year: "2026", image: "/Imagens/Demon Slayer/Duck-ai-image-2026-11-07-03-39.jpeg", tone: "olive" },
-  { n: "03", title: "Moranguinho", type: "Produto infantil • Estamparia", year: "2026", image: "/Imagens/Moranguinho/Modelo01.jpg", tone: "dark" },
-  { n: "04", title: "Wolverine", type: "Produto licenciado • Mochilas", year: "2026", image: "/Imagens/Wolverine/primeira_foto_separada.png", tone: "cream" },
+  { n: "01", title: "Marvel", type: "Produto licenciado • Kits escolares", year: "2026", image: "/Imagens/Marvel/Menino com Mochila Marvel em Estúdio.png", tone: "rust" },
+  { n: "02", title: "Moranguinho", type: "Produto infantil • Estamparia", year: "2026", image: "/Imagens/Moranguinho/Modelo01.jpg", tone: "olive" },
+  { n: "03", title: "Pantera Negra", type: "Produto licenciado • Mochilas", year: "2026", image: "/Imagens/Pantera Negra/Retrato com Mochila Marvel Wakanda.png", tone: "dark" },
+  { n: "04", title: "Wolverine", type: "Produto licenciado • Mochilas", year: "2026", image: "/Imagens/Wolverine/Mochila Wolverine Marvel em Fundo Bege.png", tone: "cream" },
 ];
 
 const services = [
