@@ -4,10 +4,10 @@ import { ArrowDownRight, ArrowRight, ArrowUpRight, Asterisk, Dribbble, Instagram
 export const Route = createFileRoute("/")({ component: Index });
 
 const projects = [
-  { n: "01", title: "Marvel", type: "Produto licenciado • Kits escolares", year: "2026", image: "/Imagens/Marvel/Menino com Mochila Marvel em Estúdio.png", tone: "rust" },
-  { n: "02", title: "Moranguinho", type: "Produto infantil • Estamparia", year: "2026", image: "/Imagens/Moranguinho/Modelo01.jpg", tone: "olive" },
-  { n: "03", title: "Pantera Negra", type: "Produto licenciado • Mochilas", year: "2026", image: "/Imagens/Pantera Negra/Retrato com Mochila Marvel Wakanda.png", tone: "dark" },
-  { n: "04", title: "Wolverine", type: "Produto licenciado • Mochilas", year: "2026", image: "/Imagens/Wolverine/Mochila Wolverine Marvel em Fundo Bege.png", tone: "cream" },
+  { n: "01", title: "Demon Slayer", type: "Produto licenciado • Mochilas", year: "2026", image: "/Imagens/Demon Slayer/Retrato Comercial com Mochila Demon Slayer.png", tone: "rust" },
+  { n: "02", title: "Galinha Pintadinha", type: "Produto infantil • Mochilas", year: "2026", image: "/Imagens/Galinha/Menina com Mochila da Galinha Pintadinha.png", tone: "olive" },
+  { n: "03", title: "Hulk", type: "Produto licenciado • Mochilas", year: "2026", image: "/Imagens/Hulk/Homem com Mochila HULK Preta.png", tone: "dark" },
+  { n: "04", title: "Moranguinho", type: "Produto infantil • Estamparia", year: "2026", image: "/Imagens/Moranguinho/Modelo01.jpg", tone: "cream" },
 ];
 
 const services = [
