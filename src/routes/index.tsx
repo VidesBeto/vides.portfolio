@@ -47,7 +47,7 @@ function Index() {
       </section>
 
       <section className="intro-band" id="sobre">
-        <div className="intro-photo"><img src="https://images.unsplash.com/photo-1455390582262-044cdeal277a?auto=format&fit=crop&w=900&q=85" alt="Mesa de trabalho criativo" /><span className="photo-label">PROCESSO CRIATIVO / 001</span></div>
+        
         <div className="intro-copy"><div className="section-kicker light">UM POUCO SOBRE MIM</div><h2>OLÁ, SOU BRUNO<br/>VIDES<span className="rust-dot">.</span></h2><p>Designer com experiência em criação de estampas e desenvolvimento visual. Meu trabalho une repertório cultural, pesquisa e olhar gráfico para transformar ideias em projetos com presença.</p><a className="intro-link" href="#contato">VAMOS CRIAR ALGO JUNTOS <ArrowUpRight size={16}/></a></div>
         <div className="intro-facts"><div><span className="fact-symbol">✳</span><span>BASEADO NO<br/><b>RIO DE JANEIRO</b></span></div><div><span className="fact-symbol">↗</span><span>ATUAÇÃO<br/><b>REMOTA / BRASIL</b></span></div><div><span className="fact-symbol">✦</span><span>ABERTO A<br/><b>COLABORAÇÕES</b></span></div></div>
       </section>
