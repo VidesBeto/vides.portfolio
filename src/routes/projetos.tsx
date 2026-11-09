@@ -40,7 +40,7 @@ function ProjectsPage() {
     <nav className="nav-shell">
       <Link className="brand" to="/" aria-label="Bruno Vides início"><span className="brand-mark">✳</span><span>BRUNO<br/>VIDES<span className="brand-dot">.</span></span></Link>
       <div className="nav-links"><a href="/#sobre">SOBRE</a><a href="/#servicos">SERVIÇOS</a><Link to="/projetos" className="active">PROJETOS</Link><a href="/#contato">CONTATO</a></div>
-      <a className="nav-cta" href="/#contato">VAMOS CONVERSAR <ArrowUpRight size={15}/></a>
+      <button type="button" className="language-switch" onClick={() => { window.location.href = "https://translate.google.com/translate?sl=pt&tl=en&u=" + encodeURIComponent(window.location.href); }} aria-label="Translate portfolio to English">ENGLISH <span aria-hidden="true">↗</span></button>\n      <a className="nav-cta" href="/#contato">VAMOS CONVERSAR <ArrowUpRight size={15}/></a>
       <Link className="mobile-menu" to="/" aria-label="Voltar ao início"><ArrowLeft size={22}/></Link>
     </nav>
 
