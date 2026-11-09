@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { ArrowDownRight, ArrowRight, ArrowUpRight, Asterisk, Instagram, Linkedin, Mail, Menu, MessageCircle, Phone, Sparkles } from "lucide-react";
+import { ArrowDownRight, ArrowRight, ArrowUpRight, Asterisk, Linkedin, Mail, Menu, MessageCircle, Phone, Sparkles } from "lucide-react";
 
 export const Route = createFileRoute("/")({ component: Index });
 
@@ -65,7 +65,7 @@ function Index() {
 
       <section className="contact-band" id="contato"><div><div className="section-kicker light">TEM UM PROJETO EM MENTE?</div><h2>VAMOS FAZER<br/>ACONTECER<span>.</span></h2></div><div className="contact-copy"><p>Se você procura um parceiro criativo para desenvolver estampas, produtos ou identidade visual, vamos conversar.</p><div className="contact-actions"><a className="contact-button" href="mailto:contato@vides.cloud"><Mail size={16}/> E-MAIL <ArrowUpRight size={18}/></a><a className="contact-button whatsapp-button" href="https://wa.me/5521969281155" target="_blank" rel="noreferrer"><MessageCircle size={16}/> WHATSAPP <ArrowUpRight size={18}/></a></div><a className="contact-phone" href="tel:+5521969281155"><Phone size={14}/> +55 21 96928-1155</a><span className="contact-small">NOVAS IDEIAS SÃO SEMPRE BEM-VINDAS.</span></div><div className="contact-orbit"><div/><div/><span>✳</span></div></section>
 
-      <footer className="footer"><a className="brand footer-brand" href="#home"><span className="brand-mark">✳</span><span>BRUNO<br/>VIDES<span className="brand-dot">.</span></span></a><span className="footer-note">DESIGN GRÁFICO · ESTAMPARIA · PRODUTO</span><div className="footer-social"><a href="https://www.instagram.com/" aria-label="Instagram"><Instagram size={17}/></a><a href="https://www.linkedin.com/in/bruno-vides-27a32239/" aria-label="LinkedIn" target="_blank" rel="noreferrer"><Linkedin size={17}/></a><a href="mailto:contato@vides.cloud" aria-label="E-mail"><Mail size={17}/></a></div><span className="copyright">© 2026 BRUNO VIDES</span></footer>
+      <footer className="footer"><a className="brand footer-brand" href="#home"><span className="brand-mark">✳</span><span>BRUNO<br/>VIDES<span className="brand-dot">.</span></span></a><span className="footer-note">DESIGN GRÁFICO · ESTAMPARIA · PRODUTO</span><div className="footer-social"><a href="https://www.linkedin.com/in/bruno-vides-27a32239/" aria-label="LinkedIn" target="_blank" rel="noreferrer"><Linkedin size={17}/></a><a href="mailto:contato@vides.cloud" aria-label="E-mail"><Mail size={17}/></a></div><span className="copyright">© 2026 BRUNO VIDES</span></footer>
     </main>
   );
 }
