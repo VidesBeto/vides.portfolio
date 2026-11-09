@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { ArrowDownRight, ArrowRight, ArrowUpRight, Asterisk, Dribbble, Instagram, Linkedin, Mail, Menu, Play, Sparkles } from "lucide-react";
+import { ArrowDownRight, ArrowRight, ArrowUpRight, Asterisk, Instagram, Linkedin, Mail, Menu, MessageCircle, Phone, Sparkles } from "lucide-react";
 
 export const Route = createFileRoute("/")({ component: Index });
 
@@ -63,9 +63,9 @@ function Index() {
 
       <section className="quote-section"><div className="quote-mark">“</div><blockquote>Design bom não é só o que chama atenção. É o que carrega uma ideia, cria conexão e permanece na memória.</blockquote><div className="quote-credit"><span className="quote-line"/> UMA VISÃO SOBRE CRIAR <span className="quote-seal">BV<br/><small>DESIGN</small></span></div></section>
 
-      <section className="contact-band" id="contato"><div><div className="section-kicker light">TEM UM PROJETO EM MENTE?</div><h2>VAMOS FAZER<br/>ACONTECER<span>.</span></h2></div><div className="contact-copy"><p>Se você procura um parceiro criativo para desenvolver estampas, produtos ou identidade visual, vamos conversar.</p><a className="contact-button" href="mailto:contato@brunovides.com.br">ENTRE EM CONTATO <ArrowUpRight size={18}/></a><span className="contact-small">NOVAS IDEIAS SÃO SEMPRE BEM-VINDAS.</span></div><div className="contact-orbit"><div/><div/><span>✳</span></div></section>
+      <section className="contact-band" id="contato"><div><div className="section-kicker light">TEM UM PROJETO EM MENTE?</div><h2>VAMOS FAZER<br/>ACONTECER<span>.</span></h2></div><div className="contact-copy"><p>Se você procura um parceiro criativo para desenvolver estampas, produtos ou identidade visual, vamos conversar.</p><div className="contact-actions"><a className="contact-button" href="mailto:contato@vides.cloud"><Mail size={16}/> E-MAIL <ArrowUpRight size={18}/></a><a className="contact-button whatsapp-button" href="https://wa.me/5521969281155" target="_blank" rel="noreferrer"><MessageCircle size={16}/> WHATSAPP <ArrowUpRight size={18}/></a></div><a className="contact-phone" href="tel:+5521969281155"><Phone size={14}/> +55 21 96928-1155</a><span className="contact-small">NOVAS IDEIAS SÃO SEMPRE BEM-VINDAS.</span></div><div className="contact-orbit"><div/><div/><span>✳</span></div></section>
 
-      <footer className="footer"><a className="brand footer-brand" href="#home"><span className="brand-mark">✳</span><span>BRUNO<br/>VIDES<span className="brand-dot">.</span></span></a><span className="footer-note">DESIGN GRÁFICO · ESTAMPARIA · PRODUTO</span><div className="footer-social"><a href="https://www.instagram.com/" aria-label="Instagram"><Instagram size={17}/></a><a href="https://www.linkedin.com/" aria-label="LinkedIn"><Linkedin size={17}/></a><a href="mailto:contato@brunovides.com.br" aria-label="E-mail"><Mail size={17}/></a></div><span className="copyright">© 2026 BRUNO VIDES</span></footer>
+      <footer className="footer"><a className="brand footer-brand" href="#home"><span className="brand-mark">✳</span><span>BRUNO<br/>VIDES<span className="brand-dot">.</span></span></a><span className="footer-note">DESIGN GRÁFICO · ESTAMPARIA · PRODUTO</span><div className="footer-social"><a href="https://www.instagram.com/" aria-label="Instagram"><Instagram size={17}/></a><a href="https://www.linkedin.com/" aria-label="LinkedIn"><Linkedin size={17}/></a><a href="mailto:contato@vides.cloud" aria-label="E-mail"><Mail size={17}/></a></div><span className="copyright">© 2026 BRUNO VIDES</span></footer>
     </main>
   );
 }
